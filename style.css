@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    min-width: 600px;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#inputEl {
+    width: 100%;
+    padding: 10px 10px;
+    border: 2px solid #1da756;
+    border-radius: 4px;
+}
+
+main{
+    padding: 50px 0;
+}
+
+.saveBtn {
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 17px;
+    background-color: #0a101a;
+    color: #eeeeee;
+    margin-top: 4px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+}
+.delete-btn {
+    padding: 9px 17px;
+    display: inline-block;
+    font-size: 17px;
+    background-color: transparent;
+    color: #0a101a;
+    margin-top: 4px;
+    cursor: pointer;
+    border: 1px solid #0a101a;
+    border-radius: 4px;
+}
+ul li {
+    color: #eeeeee;
+    list-style: none;
+    background-color: #102945;
+    font-size: 10px;
+    padding: 7px 4px;
+    margin: 5px 0 ;
+    border-radius: 4px;
+    overflow-wrap: break-word;
+}
+
+ul li a {
+    
+    cursor: pointer;
+    color: #eeeeee;
+}
+
+.save-url {
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 17px;
+    background-color: #0a101a;
+    color: #eeeeee;
+    margin-top: 4px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+}

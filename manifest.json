@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Leads tracker",
+    "action": {
+        "// COMMENT": "THE DEFAULT POPUP MUST BE THE MAIN HTML  AND DEFAULT ICON MUST BE THE ICON OF YOUR CHROME EXTENSION",
+        "default_popup": "index.html",
+        "default_icon": "chromeicon.png"
+    },
+    "// COMMENT" : "THE CHROME QUERY NEEDS PERMISSION TO ACCESS THE TABS",
+    "permissions": ["tabs"]
+}
